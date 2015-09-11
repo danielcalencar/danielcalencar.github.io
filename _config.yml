@@ -1,6 +1,6 @@
 ### Site info:
 title: Daniel Alencar da Costa
-###tagline: Another Jekyll theme, Freshman twenty-first
+tagline: Welcome!
 author: Lijia Yu
 email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
@@ -55,12 +55,12 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
-      title: Another Jekyll blog theme
-    - name: author's website
-      href: http://yulijia.net/
-      title: Lijia Yu's website
+    - name: Daniel
+      href: danielcalencar.github.io
+      title: My personal website
+    #- name: author's website
+    #  href: http://yulijia.net/
+    #  title: Lijia Yu's website
 
 
 ### Build settings
