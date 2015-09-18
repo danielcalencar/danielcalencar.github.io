@@ -18,5 +18,5 @@ particular, I have been doing research about the delays that new functionalities
 suffer before being integrated into new software releases. I have also evaluated bug-detection   
 techniques along my PhD course.   
    
-Besides research, I like bodybuilding, games, and, especially, meeting new people. Feel free to send
+Besides research, I like bodybuilding, games, and, especially meeting new people. Feel free to send
 me a message!   
