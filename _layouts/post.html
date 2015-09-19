@@ -4,11 +4,11 @@ layout: default
 <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+	  {% if page.award == true %}
+	  <!-- img src="{{site.baseurl}}/images/trophy.png" alt="{{site.author}}"/ -->
+	  <p>something before title </p>
+	  {% endif %}
     <h1 itemprop="name" class="post-title">
-	    {% if page.award == true %}
-	    <!-- img src="{{site.baseurl}}/images/trophy.png" alt="{{site.author}}"/ -->
-	    <p>something before title </p>
-	    {% endif %}
 	    {{ page.title }}
     </h1>
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
