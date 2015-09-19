@@ -36,8 +36,12 @@ locales:
       Previous: "Older"
       Next: "Newer"
       PostedInCategories: "Posted in"
+      Authors: "Authors:"
+      Venue: "Venue:"
+      Preprint: "Preprint:"
       Taggedwith: "and tagged"  
       PostDate: "on "
+      BestPaperNomination: "Nominated for best paper award"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
