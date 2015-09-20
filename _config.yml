@@ -13,7 +13,7 @@ locale: en_US
 twitter_username: danielcalencar
 github_username:  danielcalencar
 #disqus_shortname: freshman21
-#favicon:     "/images/brasil.ico"
+favicon: #"/images/brasil.ico"
 aboutme: Hi, I am Daniel Alencar da Costa. # these are shown on aboutme-sidebar.
 aboutme_photo: https://lh6.googleusercontent.com/-2bfrpyZssfE/VfxWosPoquI/AAAAAAAACIg/yTK6hjeUITc/w1054-h1041-no/me.jpg # your photo.
 award_photo: "images/trophy.png"
