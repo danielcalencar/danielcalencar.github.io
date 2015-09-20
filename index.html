@@ -8,11 +8,11 @@ layout: default
     {% for post in paginator.posts %}
   
     <header class="post-header">
-      <h1 itemprop="name" class="post-title">
+      <h2 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 		{{ post.title }}
 	</a>
-      </h1>
+      </h2>
 
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
 
