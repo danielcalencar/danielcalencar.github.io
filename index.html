@@ -15,6 +15,29 @@ layout: default
       </h1>
 
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+
+      {% if page.award %}
+      <p class="post-meta"><img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;" />
+      {{ site.locales[site.default_locale].BestPaperNomination }}
+      <img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;" /></p>
+      {% endif %}
+
+      <p class="post-meta">
+      {{ site.locales[site.default_locale].Authors }}
+      {% for auth in page.authors %}
+      {{ auth }}{% unless page.authors.last == auth %}, {% endunless %}
+      {% endfor %} 
+      </p>
+
+      <p class="post-meta">
+      {{ site.locales[site.default_locale].Venue }} {{ page.venue }}
+      </p>
+
+      <p class="post-meta">
+      {{ site.locales[site.default_locale].Preprint }}
+      <a href="{{ page.preprint }}"> - PDF </a>
+      </p>
+
       <p class="post-meta">
       {{ site.locales[site.default_locale].PostedInCategories }}
 
