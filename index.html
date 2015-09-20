@@ -10,9 +10,6 @@ layout: default
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-		{% if post.award %}
-		<img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;"/>
-		{% endif %}
 		{{ post.title }}
 	</a>
       </h1>
@@ -39,7 +36,7 @@ layout: default
     </header>
 
     <article class="post-content" itemprop="articleBody">
-      {{ post.content }}
+	    <!-- {{ post.content }} -->
     </article> <hr />
     
     {% endfor %}
