@@ -4,17 +4,19 @@ layout: default
 
 <div class="home">
 
-	<h1> <p>Publications</p> </h1>
+	<p><h1> Publications </h1></p>
 
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
     {% for post in paginator.posts %}
   
     <header class="post-header">
-      <h3 itemprop="name" class="post-title">
-        <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-		{{ post.title }}
-	</a>
-      </h3>
+	    <p>
+	    <h3 itemprop="name" class="post-title">
+		    <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+			    {{ post.title }}
+		    </a>
+	    </h3>
+	    </p>
 
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
 
