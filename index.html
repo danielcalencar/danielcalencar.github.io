@@ -4,7 +4,8 @@ layout: default
 
 <div class="home">
 
-	<h1><span style="display: block;">Publications</span></h1>
+	<h1>Publications</h1>
+	<hr/>
 
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
     {% for post in paginator.posts %}
@@ -12,11 +13,9 @@ layout: default
     <header class="post-header">
 	    
 	    <h1 itemprop="name" class="post-title">
-		    <span style="display: block;">
 			    <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 				    {{ post.title }}
 			    </a>
-		    </span>
 	    </h1>
 	    
 
