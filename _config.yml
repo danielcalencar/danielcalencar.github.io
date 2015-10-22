@@ -71,4 +71,4 @@ Blogroll:
 ### Build settings
 markdown: kramdown
 highlighter: pygments
-paginate: 5
+paginate: 20
