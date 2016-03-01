@@ -8,6 +8,7 @@ keywords: "Jekyll, theme, Freshman21"
 ###baseurl: "/freshman21" # the subpath of your site, e.g. /blog
 url: "https://danielcalencar.github.io" # the base hostname & protocol for your site
 locale: en_US
+encoding: UTF-8
 
 ### Personal info and site tools info:
 twitter_username: danielcalencar
