@@ -27,6 +27,12 @@ layout: default
       <img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;" /></p>
       {% endif %}
 
+      {% if post.acmaward %}
+      <p class="post-meta"><img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;" />
+      {{ site.locales[site.default_locale].ACMAward }}
+      <img src="{{site.baseurl}}/images/trophy.png" style="max-height: 40px; max-width: 40px;" /></p>
+      {% endif %}
+
       <p class="post-meta">
       {{ site.locales[site.default_locale].Authors }}
       {% for auth in post.authors %}
