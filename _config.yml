@@ -43,6 +43,7 @@ locales:
       Taggedwith: "and tagged"  
       PostDate: "on "
       BestPaperNomination: "Nominated for best paper award"
+      ACMAward: "ACM SIGSOFT Distinguished paper award"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
