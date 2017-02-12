@@ -1,5 +1,5 @@
 ---
-layout: material      
+layout: page      
 title: Materials   
-permalink: /materials/   
+permalink: /materials.html   
 ---   

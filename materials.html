@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+
+	<h1>Material</h1>
+	<hr/>
+
+  <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+    {% for post in paginator.posts %}
+  
+    {% if post.ismaterial %}
+
+    <header class="post-header">
+	    
+	    <h1 itemprop="name" class="post-title">
+		    <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+			    {{ post.title }}
+		    </a>
+	    </h1>
+
+	    <article class="post-content" itemprop="articleBody">
+		    {{ post.content }} 
+	    </article> <hr />
+
+	    <p class="post-meta">
+	    {{ site.locales[site.default_locale].Preprint }}
+	    <a href="{{ post.material }}"> - DOWNLOAD </a>
+	    </p>
+
+	    <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+		    {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%b %-d, %Y" }}
+	    </time>
+	    </p>
+    </header>
+
+    {% endif %}
+    {% endfor %}
+  
+  </div>
+</div>
