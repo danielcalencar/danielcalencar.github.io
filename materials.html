@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
 	<h1>Materials</h1>
@@ -10,7 +9,7 @@ layout: default
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
     {% for post in paginator.posts %}
   
-    {% if post.ismaterial %}
+    <!--{% if post.ismaterial %}-->
 
     <header class="post-header">
 	    
@@ -25,7 +24,7 @@ layout: default
 	    </article> <hr />
 
 	    <p class="post-meta">
-	    {{ site.locales[site.default_locale].Preprint }}
+	    {{ site.locales[site.default_locale].Material }}
 	    <a href="{{ post.material }}"> - DOWNLOAD </a>
 	    </p>
 
@@ -35,7 +34,8 @@ layout: default
 	    </p>
     </header>
 
-    {% endif %}
+    <!--{% endif %}-->
+
     {% endfor %}
   
   </div>
