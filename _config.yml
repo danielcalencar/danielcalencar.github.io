@@ -44,6 +44,7 @@ locales:
       PostDate: "on "
       BestPaperNomination: "Nominated for best paper award"
       ACMAward: "ACM SIGSOFT Distinguished paper award"
+      Material: "Material"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
