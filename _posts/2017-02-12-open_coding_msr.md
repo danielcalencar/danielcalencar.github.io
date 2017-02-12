@@ -2,7 +2,7 @@
 published: true
 title: "Open Coding of Our Qualitative Analyses (Thesis)"
 layout: material
-ismateria: true
+ismaterial: true
 material: https://github.com/danielcalencar/danielcalencar.github.io/raw/master/material/codes.csv 
 ---   
 
