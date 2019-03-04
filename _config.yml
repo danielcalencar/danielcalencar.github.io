@@ -1,8 +1,8 @@
 ### Site info:
 title: Daniel Alencar da Costa
-tagline: Now is the only time you have
+tagline: Lecturer at the University of Otago
 author: Daniel Alencar da Costa
-email: daniel.calencar@gmail.com
+email: danielcalencar at otago dot ac dot nz 
 description: "My personal website." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
 ###baseurl: "/freshman21" # the subpath of your site, e.g. /blog
@@ -16,7 +16,7 @@ github_username:  danielcalencar
 #disqus_shortname: freshman21
 favicon: #"/images/brasil.ico"
 aboutme: Hi, I am Daniel Alencar da Costa. # these are shown on aboutme-sidebar.
-aboutme_photo: https://lh5.googleusercontent.com/-74Vvra7vVBE/ViWtZy-OBhI/AAAAAAAACJc/A7kyU35j4nY/w582-h550-no/website.jpg # your photo.
+aboutme_photo: http://danielcalencar.github.io/images/about.jpg # your photo.
 award_photo: "images/trophy.png"
 
 
