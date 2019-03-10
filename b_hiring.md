@@ -1,6 +1,6 @@
 ---
 layout: page      
-title: I am hiring new students   
+title: Hiring!
 comments: no   
 permalink: /hiring/   
 ---   
