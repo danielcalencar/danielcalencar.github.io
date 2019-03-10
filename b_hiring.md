@@ -10,7 +10,7 @@ permalink: /hiring/
 You are in the right place. I am currently hiring new master's and Ph.D.
 students to perform exciting research in the Software Engineering field. The
 academic career is very exciting as it allows you to use your own creativity to
-tackle on new real world problems (with my guidance, of course). My supervision
+tackle real and important problems (with my guidance, of course). My supervision
 philosophy is to be committed with you and bring the best of your potential.
 The academic career can be also rewarding as you may travel around the world
 once you start publishing your research work! 
