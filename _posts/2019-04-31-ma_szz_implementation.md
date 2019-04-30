@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Implementation of the MA-SZZ (TSE 2016)"
+title: "MA-SZZ Implementation (TSE 2016)"
 layout: material
 ismaterial: true
 material: https://github.com/danielcalencar/ma-szz 
