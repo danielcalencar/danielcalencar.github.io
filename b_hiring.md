@@ -15,7 +15,7 @@ your potential. I encourage you to contact any of my previous students (listed
 below) in case you are curious about how it is to work with me. 
 
 * [João Helis Bernardo](https://github.com/joaohelis) (PhD candidate)
-* [Gustavo Sizílio] (https://github.com/gustavosizilio) (PhD candidate)
+* [Gustavo Sizilio] (https://github.com/gustavosizilio) (PhD candidate)
 * [Edmilson Campos](https://www.researchgate.net/profile/Edmilson_Neto) (PhD)
 * [Guoliang Zhao](http://post.queensu.ca/~zouy/people.html) (PhD candidate)
 * [Taher Ahmed Ghaleb](https://taher-ghaleb.github.io/) (PhD candidate)
