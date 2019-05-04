@@ -3,7 +3,7 @@ published: true
 title: "Improving the Pull Requests Review Process Using Learning-to-rank Algorithms"
 layout: post
 authors: ["Guoliang Zhao", "Daniel Alencar da Costa and Ying Zou"]
-preprint: https://github.com/danielcalencar/danielcalencar.github.io/raw/master/papers/EMSE-2019-guoliang.pdf 
+preprint: https://github.com/danielcalencar/danielcalencar.github.io/raw/master/papers/EMSE2019-Guoliang.pdf 
 venue: Empirical Software Engineering (EMSE) 
 award: false
 acmaward: false
