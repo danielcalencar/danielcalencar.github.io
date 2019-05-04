@@ -15,9 +15,15 @@ layout: default
 		<header class="post-header">
 
 			<h1 itemprop="name" class="post-title">
-				<a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+ 
+				<a itemprop="url" class="post-link" href="{{ post.material }}">
 					{{ post.title }}
+
 				</a>
+
+				<!-- a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+					{{ post.title }}
+				</a-->
 			</h1>
 
 
@@ -25,10 +31,10 @@ layout: default
 				{{ post.content }} 
 			</article> 
 
-			<p class="post-meta">
+			<!-- p class="post-meta">
 			<a href="{{ post.material }}"> - LINK - </a>
 			<hr />
-			</p>
+			</p-->
 		</header>
 
 		{% endif %}
