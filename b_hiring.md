@@ -7,7 +7,7 @@ permalink: /hiring/
 
 I am looking for passionate students (both masters' and PhD) to perform
 exciting research in the Software Engineering field. My current projects
-involve the development of supporting (inteligent) tools that will considerably
+involve the development of supporting (and inteligent) tools that will considerably
 improve the software development processes in software companies. 
 
 My supervision philosophy is to be committed with you and bring the best of
